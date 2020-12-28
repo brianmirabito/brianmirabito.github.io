@@ -15,7 +15,7 @@ const Nav = () => {
     >
       <Container>
         <Navbar.Brand href="#home">
-          Brian Mirabito <span className="sub-title">- Software Engineer</span>
+          Brian Mirabito <span className="sub-title"> Software Engineer</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
