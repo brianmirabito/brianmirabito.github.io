@@ -2,8 +2,8 @@ const createNakerOptions = (overrides = {}) => ({
   environment: {
     gradient: "radial",
     sensitivity: 1,
-    colorStart: [7, 19, 99, 1],
-    colorEnd: [49, 68, 254, 1],
+    colorStart: [51, 6, 10, 1],
+    colorEnd: [227, 30, 50, 1],
     ...(overrides.environment ? overrides.environment : {}),
   },
   particle: {
@@ -13,7 +13,7 @@ const createNakerOptions = (overrides = {}) => ({
       "https://res.cloudinary.com/naker-io/image/upload/v1566560053/window_04.png",
     number: 202,
     colorStart: [255, 255, 255, 0.13],
-    colorEnd: [45, 155, 230, 0.52],
+    colorEnd: [255, 15, 41, 0.52],
     sizeStart: 1.08,
     sizeEnd: 2.16,
     direction1: {
