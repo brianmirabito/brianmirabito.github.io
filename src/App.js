@@ -5,8 +5,6 @@ import "./App.css";
 import Nav from "./components/Nav/Nav";
 import NackerBack from "./components/NakerBack";
 import Picture from "./components/Picture/Picture";
-import typeText from "./components/TypeText/typeText";
-
 import createNakerOptions from "./nakerOptions";
 
 const App = () => {
@@ -22,7 +20,6 @@ const App = () => {
         <p className="sub-content">
           3rd Year Software Engineering Student at RIT
         </p>
-        <typeText className="title-content"></typeText>
       </Container>
     </>
   );
