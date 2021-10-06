@@ -18,7 +18,11 @@ const App = () => {
         <Picture></Picture>
         <h1 className="title-content">Brian Mirabito</h1>
         <p className="sub-content">
-          3rd Year Software Engineering Student at RIT
+          4th Year Software Engineering Student at RIT
+        </p>
+        <p className="blurb-content">
+          Seeking a challenging co-op or internship focusing on software
+          engineering for Spring and/or Summer 2022.
         </p>
       </Container>
     </>
